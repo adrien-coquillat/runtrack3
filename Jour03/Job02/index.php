@@ -23,7 +23,7 @@ rouge. -->
 
 <body>
     <button id="buttonmelanger">melange</button>
-    <button id="ranger">range</button>
+
     <div id="image">
         <img id="image1" src="arc1.png">
         <img id="image2" src="arc2.png">
