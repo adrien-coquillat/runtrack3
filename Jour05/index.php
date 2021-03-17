@@ -23,6 +23,6 @@ if (!isset($_SESSION['user'])) { ?>
     <a href="?d">Disconnect</a>
 
 <?php }
-var_dump($_SESSION['user']);
+// var_dump($_SESSION['user']);
 ?>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

@@ -1,0 +1,40 @@
+/* 
+Créez un fichier index.php contenant les balises html de base (doctype,
+html, head, body). Créez un fichier style.css qui contiendra le style de cette
+page. Dans votre body, créez 4 sections ayant comme classe “section”.
+Mettez la couleur #88c1d0 en background de vos .section. Ajoutez des
+medias queries de sorte à respecter le schéma suivant : */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.section {
+    background-color: #88c1d0;
+    width: 50%;
+    margin: 10px;
+}
+
+@media (max-width:767px) {
+    body {
+        flex-wrap: wrap;
+    }
+
+    .section {
+        width: 100%;
+    }
+}
+
+@media (min-width:768px) and (max-width:1599px) {
+    body {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .section {
+        width: 47%;
+
+    }
+}
